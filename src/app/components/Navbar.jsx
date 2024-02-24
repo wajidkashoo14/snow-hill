@@ -2,15 +2,32 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+
+  const [shadow, setShadow] = useState("0");
+  const [bg, setBg] = useState("transparent");
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+  }, []);
+
+  const changeBackground = () => {
+    if (window.scrollY > 50) {
+      setShadow("shadow-2xl");
+      setBg("bg-[#063c49]");
+    } else {
+      setShadow("shadow-0");
+      setBg("bg-transparent");
+    }
+  };
   return (
-    <nav class=" border-gray-200 bg-[#024F74] w-full poppins fixed top-0 z-50">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-5 max-[600px]:hidden">
+    <nav class={` border-gray-200 bg-transparent w-full ${shadow} poppins fixed top-0 z-50 ${bg}`}>
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
         <Link
           href="/"
           class="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden"
@@ -23,7 +40,7 @@ function Navbar() {
             height={60}
             class="rounded-full"
           />
-          Beauty and Trust
+          SnowHill Travels
         </Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
@@ -38,7 +55,7 @@ function Navbar() {
           class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 poppins z-50"
           id="navbar-cta"
         >
-          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border bg-[#024F74] border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 poppins">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border bg-transparent border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 poppins">
             <li>
               <Link
                 href="/"
@@ -105,7 +122,7 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className="text-normal text-lg text-green-300 w-36">Beauty and Trust Tour and Travels</span>
+        <span className="text-normal text-lg text-green-300 w-36">SnowHill Travels Tour and Travels</span>
         <div class="flex">
           <div onClick={() => setNav(!nav)}>
             {nav ? (

@@ -8,39 +8,28 @@ import { IoWallet } from "react-icons/io5";
 
 export default function OurServices() {
   return (
-    <div class="px-20 min-h-screen text-center max-[600px]:px-4 max-[600px]:mt-44">
-      <h1 class="text-4xl font-bold mt-12 mb-20">Our Services</h1>
-      <div class="flex justify-around items-center flex-wrap gap-4 max-[600px]:block">
+    <div class="px-20 min-h-screen bg-[#063c49] text-center max-[600px]:px-4 max-[600px]:mt-44">
+      <h1 class="font-bold py-12 text-5xl text-[#dfe4e6] opacity-55 mb-20">Our Services</h1>
+      <div class="flex justify-around items-center gap-4 pt-10 max-[600px]:block">
         <OurServicesCard
-          icon={<GiSettingsKnobs />}
-          heading="Personalized Matching"
-          description="We offer a wide variety of personally picked tours with destinations all over the globe."
+          image="/24-hours.png"
+          heading="Superior Service"
+          
         />
         <OurServicesCard
-          icon={<GiTripleScratches />}
-          heading="Wide Variety of Tours"
-          description="Our unique matching system lets you find just the tour you want for your next holiday."
+          image="/guidance.png"
+          heading="Expert Guidance"
+          
         />
         <OurServicesCard
-          icon={<FaRegStar />}
+          image="/user-location.png"
           heading="
-          Highly Qualified Service"
-          description="Our tour managers are qualified, skilled, and friendly to bring you the best service."
+          Personalized Experience"
+          
         />
         <OurServicesCard
-          icon={<BiSupport />}
-          heading="24/7 Support"
-          description="You can always get professional support from our staff 24/7 and ask any question you have."
-        />
-        <OurServicesCard
-          icon={<LiaHotelSolid/>}
-          heading="Handpicked Hotels"
-          description="Our team offers only the best selection of affordable and luxury hotels to our clients."
-        />
-        <OurServicesCard
-          icon={<IoWallet />}
-          heading="Best Price Guarantee"
-          description="If you find tours that are cheaper than ours, we will compensate the difference."
+         image="/earth.png"
+          heading="Sustainable Tourism"
         />
       </div>
     </div>

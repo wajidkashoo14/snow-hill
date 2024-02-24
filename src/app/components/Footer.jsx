@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
             <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
-              Beauty and Trust Tour and Travels in Kashmir offers an enchanting
+              SnowHill Travels Tour and Travels in Kashmir offers an enchanting
               exploration, embracing the serene landscapes of Sonmarg and
               Pahalgam. Traverse through the captivating meadows of Pahalgam,
               where the Lidder River gracefully flows, and experience the

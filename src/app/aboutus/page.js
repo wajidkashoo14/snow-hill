@@ -20,9 +20,9 @@ export default function page() {
         About us
       </h1>
       <div className="px-56 mt-20 text-center font-light text-xl max-[600px]:p-4 max-[600px]:text-lg">
-        <h1 className="text-xl font-semibold my-6">Welcome to Beauty and Trust Tour and Travels</h1>
+        <h1 className="text-xl font-semibold my-6">Welcome to SnowHill Travels Tour and Travels</h1>
         <p>
-          At Beauty and Trust Tour and Travels, we believe that every journey is
+          At SnowHill Travels Tour and Travels, we believe that every journey is
           an opportunity to discover beauty and build trust. With a commitment
           to providing exceptional travel experiences, we embark on a mission to
           curate unforgettable adventures that leave a lasting impact on our
@@ -30,7 +30,7 @@ export default function page() {
         </p>
         <h3 className="text-xl font-semibold my-6">Who We Are</h3>
         <p>
-          Beauty and Trust Tour and Travels is not just a travel company; it's a
+          SnowHill Travels Tour and Travels is not just a travel company; it's a
           testament to the fusion of elegance and reliability. Established with
           a passion for exploration and a dedication to customer satisfaction,
           our company has grown into a leading name in the travel industry.
@@ -63,7 +63,7 @@ export default function page() {
         </ul>
         <h3 className="text-xl font-semibold my-6">Destinations</h3>
         <p>
-          Explore the world with Beauty and Trust Tour and Travels. Whether you
+          Explore the world with SnowHill Travels Tour and Travels. Whether you
           dream of basking in the sun on a tropical beach, trekking through
           majestic mountains, or immersing yourself in vibrant cultures, our
           diverse range of destinations ensures there's something for every
@@ -106,7 +106,7 @@ export default function page() {
         <h3 className="text-xl font-semibold my-6">Get in Touch</h3>
         <p>
           Ready to embark on your next adventure? Contact us today to start
-          planning your journey with Beauty and Trust Tour and Travels. Our team
+          planning your journey with SnowHill Travels Tour and Travels. Our team
           looks forward to crafting a travel experience that combines beauty,
           trust, and unforgettable moments.
         </p>

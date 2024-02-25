@@ -14,6 +14,6 @@ body{
   transition-duration: 2s;
 }
 
-.poppins {
-  font-family: var(--font-poppins);
+.montserrat {
+  font-family: var(--font-montserrat);
 }

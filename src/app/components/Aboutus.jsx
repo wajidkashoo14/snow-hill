@@ -28,7 +28,7 @@ export default function Aboutus() {
       </div>
       <div class="w-1/2 flex flex-col items-start gap-10 max-[600px]:w-full max-[600px]:block max-[600px]:p-4 lg:gap-8 lg:p-2">
         <h1 class="text-5xl text-[#dfe4e6] opacity-55 font-bold max-[600px]:text-2xl max-[600px]:my-4">About Us</h1>
-        <p class="text-xl text-[#dfe4e6] font-light max-[600px]:text-sm max-[600px]:leading-6 lg:leading-normal ">
+        <p class="text-xl text-[#dfe4e6] font-light montserrat max-[600px]:text-sm max-[600px]:leading-6 lg:leading-normal ">
         Welcome to Snowhill Travels Kashmir, where we transform your travel aspirations into extraordinary adventures. Situated amidst the captivating landscapes of the Kashmir Valley, our mission is to curate unforgettable experiences that capture the essence of this majestic destination. With a wealth of experience and a dedication to personalized service, we craft tailor-made itineraries designed to immerse you in the beauty, culture, and hospitality of Kashmir. From adrenaline-fueled escapades in the snow-covered peaks to serene moments by pristine lakes, every aspect of your journey is meticulously planned by our team of passionate professionals. Join us and embark on a voyage of discovery through the enchanting realm of Kashmir's wonders.
         </p>
         {/* <div class="flex justify-start gap-10 max-[600px]:mt-5">

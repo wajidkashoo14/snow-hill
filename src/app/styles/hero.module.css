@@ -9,8 +9,7 @@
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-left: 8rem;
+    align-items: center;
     flex-direction: column;
     gap: .5rem;
     z-index: -1;
@@ -18,7 +17,7 @@
 
 .container button {
     background: transparent;
-    color: white;
+    color: #063c49;
     outline: 0;
     border: 1px solid white;
     padding: .8rem 1.8rem;
@@ -28,7 +27,8 @@
 }
 
 .container button:hover {
-    background-color: #01B3A7;
+    background-color: #063c49;
+    color: #fff;
     border: 0;
 }
 

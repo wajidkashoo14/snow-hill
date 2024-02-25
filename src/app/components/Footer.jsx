@@ -22,13 +22,13 @@ export default function Footer() {
         </h2>
         <ul class="text-gray-400 font-medium">
           <li class="mb-4">
-            <Link href="#" class="hover:underline">
+            <Link href="https://x.com/snowhilltravels?t=D2oUqMGqgbX1IkWYsX_QQA&s=09" class="hover:underline">
               Twitter
             </Link>
           </li>
           <li class="mb-4">
             <Link
-              href="https://www.facebook.com/profile.php?id=61550517676262&mibextid=ZbWKwL"
+              href="https://www.facebook.com/profile.php?id=61551063103159&mibextid=ZbWKwL"
               class="hover:underline"
             >
               Facebook
@@ -36,7 +36,7 @@ export default function Footer() {
           </li>
           <li class="mb-4">
             <Link
-              href="https://www.instagram.com/beautyandtrusttours?igsh=MThmM3BtbWQzMXAxbw=="
+              href="https://www.instagram.com/snowhill_travels?igsh=MTFxNmRsdjRldHR0eg=="
               class="hover:underline"
             >
               Instagram

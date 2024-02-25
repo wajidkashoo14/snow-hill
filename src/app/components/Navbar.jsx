@@ -11,6 +11,7 @@ function Navbar() {
 
   const [shadow, setShadow] = useState("0");
   const [bg, setBg] = useState("transparent");
+  const [textColor, setTextColor] = useState("#fff")
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
@@ -19,7 +20,8 @@ function Navbar() {
   const changeBackground = () => {
     if (window.scrollY > 50) {
       setShadow("shadow-2xl");
-      setBg("bg-[#063c49]");
+      setBg("bg-[#fff]");
+      setTextColor("text-[#063c49]")
     } else {
       setShadow("shadow-0");
       setBg("bg-transparent");
@@ -30,7 +32,7 @@ function Navbar() {
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
         <Link
           href="/"
-          class="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden"
+          class={`${textColor} font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden`}
         >
           <Image
             src="/logo.jpg"

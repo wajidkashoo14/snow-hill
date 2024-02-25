@@ -127,8 +127,8 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className="text-normal text-lg text-green-300 w-36">
-          SnowHill Travels Tour and Travels
+        <span className={` ${textColor} text-normal text-lg  w-36`}>
+          SnowHill Travels
         </span>
         <div class="flex">
           <div onClick={() => setNav(!nav)}>
@@ -142,7 +142,7 @@ function Navbar() {
           <Link
             href="https://wa.me/919055661150"
             type="button"
-            class="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
+            className="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
           >
             <Image
               src="/whatsapp.png"

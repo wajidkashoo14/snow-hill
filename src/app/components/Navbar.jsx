@@ -202,7 +202,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/"
                   class="block py-2 px-3 md:p-0 text-white rounded bg-transparent"
                   onClick={() => setNav(false)}
                 >

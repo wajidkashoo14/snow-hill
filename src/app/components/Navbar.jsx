@@ -11,17 +11,14 @@ function Navbar() {
 
   const [shadow, setShadow] = useState("0");
   const [bg, setBg] = useState("bg-transparent");
-  const [textColor, setTextColor] = useState("text-[#fff]");
 
   const changeBackground = () => {
     if (window.scrollY > 50) {
       setShadow("shadow-2xl");
       setBg("bg-white");
-      setTextColor("text-[#063c49]");
     } else {
       setShadow("shadow-0");
       setBg("bg-transparent");
-      setTextColor("text-[#fff]");
     }
   };
 
@@ -35,7 +32,7 @@ function Navbar() {
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
         <Link
           href="/"
-          class={`${textColor} font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden`}
+          class={`text-[#063c49] font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden`}
         >
           <Image
             src="/logo.jpg"
@@ -64,7 +61,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={`text-[#063c49] block py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
                 aria-current="page"
               >
                 Home
@@ -73,7 +70,7 @@ function Navbar() {
             <li>
               <Link
                 href="/#tours"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={`text-[#063c49] block py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
               >
                 Tour
               </Link>
@@ -81,7 +78,7 @@ function Navbar() {
             <li>
               <Link
                 href="/#hotels"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={` text-[#063c49] block py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
               >
                 Hotels
               </Link>
@@ -89,7 +86,7 @@ function Navbar() {
             <li>
               <Link
                 href="/transport"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={` text-[#063c49] lock py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
               >
                 Transport
               </Link>
@@ -97,7 +94,7 @@ function Navbar() {
             <li>
               <Link
                 href="/aboutus"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={`text-[#063c49]  block py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
               >
                 About us
               </Link>
@@ -105,7 +102,7 @@ function Navbar() {
             <li>
               <Link
                 href="/contact"
-                class={`block py-2 px-3 md:p-0 ${textColor} rounded md:bg-transparent montserrat`}
+                class={` text-[#063c49] block py-2 px-3 md:p-0 rounded md:bg-transparent montserrat`}
               >
                 Contact
               </Link>
@@ -127,7 +124,7 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className={` ${textColor} text-normal text-lg  w-36`}>
+        <span className={`text-[#063c49] text-normal text-lg  w-36`}>
           SnowHill Travels
         </span>
         <div class="flex">

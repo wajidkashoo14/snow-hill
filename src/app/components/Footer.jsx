@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer class="bg-white min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
+    <footer class="bg-white min-h-80 mt-12 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
       <div>
         <h2 class="text-lg font-medium mb-5 text-[#063c49]">Who we are?</h2>
         <p class="text-sm text-left text-[#063c49] w-56 max-[600px]:w-full max-[600px]:mb-5">

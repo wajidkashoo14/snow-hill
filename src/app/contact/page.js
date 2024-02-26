@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 export default function page() {
   return (
-    <div class="mt-32 max-[600px]:mt-52">
+    <div class="mt-48 max-[600px]:mt-52">
       <h1 className="-mt-20 text-5xl text-[#063c49] text-center font-medium max-[600px]:mb-5">
         Contact Us
       </h1>

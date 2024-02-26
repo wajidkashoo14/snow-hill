@@ -8,7 +8,7 @@ export default function Tours() {
 
 
   return (
-    <div class="text-center z-10 mt-20" id="tours">
+    <div class="text-center z-10 mt-20 mb-28" id="tours">
       <h1 class="text-4xl text-[#063c49] font-bold mb-20 max-[600px]:mt-20">Kashmir Packages </h1>
       <div class="flex justify-evenly gap-10 max-[600px]:block max-[600px]:p-4">
         {/* {tour.map((item) => (

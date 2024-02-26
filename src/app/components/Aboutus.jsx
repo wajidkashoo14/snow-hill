@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import AboutImage from "../../../public/about.jpg";
+import AboutImage from "../../../public/snow.jpg";
 import AboutImage2 from "../../../public/aboutus2.jpg"
 import { useRouter } from "next/navigation";
 

@@ -9,8 +9,8 @@ export default function Hotels() {
   const data = hotels.slice(0, 4);
 
   return (
-    <div id="hotels" class="h-auto text-center my-32 max-[600px]:my-20">
-      <h1 class="text-4xl font-bold mb-20 max-[600px]:text-2xl">Discover Your Perfect Stay</h1>
+    <div id="hotels" class="h-auto text-center rounded-[50px] bg-[#063c49] py-32 max-[600px]:my-20">
+      <h1 class="text-4xl font-bold text-[#dfe4e6] mb-20 max-[600px]:text-2xl">Discover Your Perfect Stay</h1>
       <div class="flex items-center justify-center gap-3 max-[600px]:block max-[600px]:p-4 lg:p-4">
         {data.map((hotel) => (
           <article
@@ -27,7 +27,7 @@ export default function Hotels() {
               class="shadow-lg rounded-lg ease-linear duration-200 hover:shadow-2xl max-[600px]:w-full"
               onClick={() => router.push(`/hotels/${hotel?.location}`)}
             />
-            <span class="font-medium">{hotel?.location.toUpperCase()}</span>
+            <span className="font-medium text-white">{hotel?.location.toUpperCase()}</span>
           </article>
         ))}
       </div>

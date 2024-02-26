@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer class="bg-[#06283D] dark:bg-gray-900 min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
+    <footer class="bg-white min-h-80 flex justify-evenly items-center max-[600px]:block max-[600px]:p-4">
       <div>
-        <h2 class="text-lg font-medium mb-5 text-white">Who we are?</h2>
-        <p class="text-sm text-left text-gray-400 w-56 max-[600px]:w-full max-[600px]:mb-5">
+        <h2 class="text-lg font-medium mb-5 text-[#063c49]">Who we are?</h2>
+        <p class="text-sm text-left text-[#063c49] w-56 max-[600px]:w-full max-[600px]:mb-5">
           SnowHill Travels Tour and Travels in Kashmir offers an enchanting
           exploration, embracing the serene landscapes of Sonmarg and Pahalgam.
           Traverse through the captivating meadows of Pahalgam, where the Lidder
@@ -17,10 +17,10 @@ export default function Footer() {
         </p>
       </div>
       <div>
-        <h2 class="mb-6 text-sm font-semibold text-white uppercase">
+        <h2 class="mb-6 text-sm font-semibold text-[#063c49] uppercase">
           Help center
         </h2>
-        <ul class="text-gray-400 font-medium">
+        <ul class="text-[#063c49] font-medium">
           <li class="mb-4">
             <Link href="https://x.com/snowhilltravels?t=D2oUqMGqgbX1IkWYsX_QQA&s=09" class="hover:underline">
               Twitter
@@ -45,10 +45,10 @@ export default function Footer() {
         </ul>
       </div>
       <div>
-        <h2 class="mb-6 text-sm font-semibold text-white uppercase">
+        <h2 class="mb-6 text-sm font-semibold text-[#063c49] uppercase">
           Quick Links
         </h2>
-        <ul class="text-gray-400 font-medium">
+        <ul class="text-[#063c49] font-medium">
           <li class="mb-4">
             <Link href="/#tours" class="hover:underline">
               Tours
@@ -67,8 +67,8 @@ export default function Footer() {
         </ul>
       </div>
       <div>
-        <h2 class="mb-6 text-sm font-semibold text-white uppercase">Contact</h2>
-        <ul class="text-gray-400 font-medium">
+        <h2 class="mb-6 text-sm font-semibold text-[#063c49] uppercase">Contact</h2>
+        <ul class="text-[#063c49] font-medium">
           <li class="mb-4">
             <Link
               href="#"

@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function Aboutus() {
   const router = useRouter()
   return (
-    <div class="flex justify-around items-center bg-[#063c49] h-screen max-[600px]:block max-[600px]: max-[600px]:text-left max-[600px]:p-1">
+    <div class="flex justify-around items-center bg-[#063c49] min-h-screen max-[600px]:block max-[600px]: max-[600px]:text-left max-[600px]:p-1">
       <div className="relative">
       <Image
         src={AboutImage}
@@ -23,7 +23,7 @@ export default function Aboutus() {
         width={250}
         height={250}
         loading="lazy"
-        className="max-[600px]:w-full rounded-xl absolute top-[300px] right-0 z-10"
+        className="max-[600px]:w-full rounded-xl absolute top-[300px] right-0 z-10 max-[600px]:hidden"
       />
       </div>
       <div class="w-1/2 flex flex-col items-start gap-10 max-[600px]:w-full max-[600px]:block max-[600px]:p-4 lg:gap-8 lg:p-2">

@@ -42,7 +42,7 @@ function Navbar() {
             height={60}
             class="rounded-full"
           />
-          SnowHill Travels
+          SnowHill Travels  Kashmir
         </Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
@@ -110,7 +110,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3 max-[600px]:flex max-[600px]:justify-between min-[768px]:hidden">
+      <div class={`${bg} max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-4 max-[600px]:flex max-[600px]:justify-between min-[768px]:hidden`}>
         <Link
           href="/"
           class="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1"
@@ -124,8 +124,8 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className={`text-[#063c49] text-normal text-lg  w-36`}>
-          SnowHill Travels
+        <span className={`text-[#063c49] font-medium text-lg  w-36`}>
+          SnowHill Travels  Kashmir
         </span>
         <div class="flex">
           <div onClick={() => setNav(!nav)}>

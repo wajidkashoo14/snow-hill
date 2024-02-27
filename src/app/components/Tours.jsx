@@ -10,7 +10,7 @@ export default function Tours() {
   return (
     <div class="text-center z-10 mt-20 mb-28" id="tours">
       <h1 class="text-4xl text-[#063c49] font-bold mb-20 max-[600px]:mt-20">Kashmir Packages </h1>
-      <div class="flex justify-evenly gap-10 max-[600px]:block max-[600px]:p-4">
+      <div class="flex justify-evenly gap-10 max-[600px]:block max-[600px]:px-4">
         {/* {tour.map((item) => (
           <div
             class="w-80 text-left border-solid border-2 border-[#F4F4F4] cursor-pointer shadow-xl transition-all ease-linear duration-200 hover:-translate-y-3 z-1 max-[600px]:w-full max-[600px]:mb-5 lg:w-72"
@@ -45,7 +45,7 @@ export default function Tours() {
         {packages?.map((item) => (
           <div
             key={item.id}
-            className="bg-cover h-[28rem] w-[19rem] bg-center rounded-2xl p-2 z-0 shadow-2xl"
+            className="bg-cover h-[28rem] w-[19rem] bg-center rounded-2xl p-2 z-0 shadow-2xl max-[600px]:mb-6 max-[600px]:w-full"
             style={{ backgroundImage: `url(${item.image})` }}
           >
             <div>

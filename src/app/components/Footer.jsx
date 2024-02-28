@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="text-center">
+    <footer>
       <div class="bg-white min-h-80 mt-12 flex justify-evenly mx-5 items-center border-b-[1px] border-gray-400 max-[600px]:block max-[600px]:p-4">
       <div>
         <h2 class="text-lg font-medium mb-5 text-[#063c49]">Who we are?</h2>
-        <p class="text-sm text-left text-[#063c49] w-56 max-[600px]:w-full max-[600px]:mb-5">
+        <p class="text-sm text-left text-[#063c49] w-64 max-[600px]:w-full max-[600px]:mb-5">
           SnowHill Travels Tour and Travels in Kashmir offers an enchanting
           exploration, embracing the serene landscapes of Sonmarg and Pahalgam.
           Traverse through the captivating meadows of Pahalgam, where the Lidder
@@ -100,7 +100,7 @@ export default function Footer() {
         </ul>
       </div>
       </div>
-      <p className="text-[#063c49] py-3 text-sm">2024 SnowHills Kashmir | A product of <Link className="underline" href="https://aqion.in/">Aqion</Link> | All rights reserved</p>
+      <p className="text-center text-[#063c49] py-3 text-sm">2024 SnowHills Kashmir | A product of <Link className="underline" href="https://aqion.in/">Aqion</Link> | All rights reserved</p>
     </footer>
   );
 }

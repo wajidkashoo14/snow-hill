@@ -27,7 +27,7 @@ export default function page() {
         <TransportCard
           image="/ertiga.webp"
           title="Ertiga"
-          numberOfPassengers ="2 Passengers Max"
+          numberOfPassengers ="4 Passengers Max"
           price="@2500/per day"
         />
         <TransportCard

@@ -33,7 +33,7 @@ export default function page() {
               <CiMobile3 size={25} />
               <text>+91 9055661150</text>
             </span>
-            <span class="flex justify-center items-center gap-2 text-lg max-[72px]:text-sm">
+            <span class="flex justify-center items-center gap-2 text-lg max-[720px]:text-sm">
               <CiMail size={25} /> <text>snowhilltravelskashmir@gmail.com</text>
             </span>
             <h2 class="text-2xl font-medium">Follow Us</h2>

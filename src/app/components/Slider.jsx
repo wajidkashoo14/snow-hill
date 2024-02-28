@@ -35,7 +35,7 @@ function Carousel() {
               objectFit: "cover",
             }}
             alt="kaaz"
-            className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+            className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-1000 ${
               currentImage === index ? "opacity-100" : "opacity-0"
             } `}
           />

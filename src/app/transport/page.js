@@ -10,25 +10,61 @@ export default function page() {
           image="/etios.jpg"
           title="Etios"
           numberOfPassengers ="2 Passengers Max"
-          description="Your ideal travel companion for tourists. Combining comfort and reliability, it ensures a memorable journey for every traveler."
+          price="@2200/per day"
         />
         <TransportCard
           image="/dzire.webp"
           title="Swift Dzire"
           numberOfPassengers ="2 Passengers Max"
-          description="Elevate your travel experience for tourists. Stylish, fuel-efficient, and compact, it offers seamless journeys with comfort and convenience."
+          price="@2200/per day"
+        />
+        <TransportCard
+          image="/amaze.webp"
+          title="Amaze"
+          numberOfPassengers ="2 Passengers Max"
+          price="@2200/per day"
+        />
+        <TransportCard
+          image="/ertiga.webp"
+          title="Ertiga"
+          numberOfPassengers ="2 Passengers Max"
+          price="@2500/per day"
         />
         <TransportCard
           image="/innova.jpg"
           title="Innova"
           numberOfPassengers ="4 Passengers Max"
-          description="The ultimate travel choice for tourists. Spacious, versatile, and reliable, it promises a memorable journey with comfort and unmatched convenience."
+          price="@3000/per day"
         />
         <TransportCard
           image="/tempo.jpg"
-          title="Tempo Traveller"
-          numberOfPassengers ="10 Passengers Max"
-          description="Tailored for tourists, providing group adventures with spacious comfort. Versatile and reliable, it's ideal for memorable journeys."
+          title="13 Seater Tempo Traveller"
+          numberOfPassengers ="13 Passengers Max"
+          price="@4200/per day"
+        />
+        <TransportCard
+          image="/tempo.jpg"
+          title="17 Seater Tempo Traveller"
+          numberOfPassengers ="17 Passengers Max"
+          price="@5200/per day"
+        />
+        <TransportCard
+          image="/tempo.jpg"
+          title="21 Seater Tempo Traveller"
+          numberOfPassengers ="21 Passengers Max"
+          price="@6000/per day"
+        />
+        <TransportCard
+          image="/bus.jpg"
+          title="23 Seater Bus"
+          numberOfPassengers ="23 Passengers Max"
+          price="@8000/per day"
+        />
+        <TransportCard
+          image="/bus.jpg"
+          title="27 Seater Bus"
+          numberOfPassengers ="27 Passengers Max"
+          price="@8000/per day"
         />
       </div>
     </div>

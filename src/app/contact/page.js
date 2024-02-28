@@ -31,7 +31,7 @@ export default function page() {
             </span>
             <span class="flex justify-center items-center gap-2 text-lg">
               <CiMobile3 size={25} />
-              <text>919055661150</text>
+              <text>+91 9055661150</text>
             </span>
             <span class="flex justify-center items-center gap-2 text-lg">
               <CiMail size={25} /> <text>snowhilltravelskashmir@gmail.com</text>

@@ -100,7 +100,7 @@ export default function Footer() {
         </ul>
       </div>
       </div>
-      <p className="text-center text-[#063c49] py-3 text-sm">2024 SnowHills Kashmir | A product of <Link className="underline" href="https://aqion.in/">Aqion</Link> | All rights reserved</p>
+      <p className="text-center text-[#063c49] py-3 text-sm">2024 SnowHills Kashmir | A product of <Link className="underline" target="_blank" href="https://aqion.in/">Aqion</Link> | All rights reserved</p>
     </footer>
   );
 }

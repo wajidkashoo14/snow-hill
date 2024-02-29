@@ -32,7 +32,7 @@ function Navbar() {
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
         <Link
           href="/"
-          class={`text-[#063c49] font-semibold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden`}
+          class={`text-[#063c49] font-bold text-xl flex justify-center items-center gap-2 -z-1 [600px]:hidden`}
         >
           <Image
             src="/logo.jpg"
@@ -124,7 +124,7 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className={`text-[#063c49] font-medium text-lg  w-36`}>
+        <span className={`text-[#063c49] text-lg  w-36 font-bold`}>
           SnowHill Travels  Kashmir
         </span>
         <div class="flex">

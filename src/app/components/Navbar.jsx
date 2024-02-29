@@ -124,7 +124,7 @@ function Navbar() {
             class="rounded-full"
           />
         </Link>
-        <span className={`text-[#063c49] text-lg  w-36 font-semibold`}>
+        <span className={`text-[#063c49] text-lg  w-36 font-medium`}>
           SnowHill Travels  Kashmir
         </span>
         <div class="flex">
